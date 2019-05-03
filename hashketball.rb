@@ -144,6 +144,7 @@ def team_colors(team_name)
       arr.push(team_data[:team_name])
     end
   end
+  arr
 end
 
 team_colors("Brooklyn Nets")
