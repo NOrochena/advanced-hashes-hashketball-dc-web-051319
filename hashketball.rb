@@ -153,7 +153,15 @@ def team_names
   arr
 end
 
-team_names
+def player_numbers(team_name)
+  arr = []
+  game_hash.each do |location, team_data|
+    team_data[:players].each do |player, stats|
+      arr.push(stats[:number])  
+    end
+  end
+  arr
+end
 
 
 
