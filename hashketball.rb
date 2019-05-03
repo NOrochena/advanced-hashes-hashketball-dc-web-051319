@@ -145,7 +145,15 @@ def team_colors(team_name)
   end
 end
 
-team_colors("Brooklyn Nets")
+def team_names
+  arr = []
+  game_hash.each do |location, team_data|
+    if team_data == :team_name
+      arr.push(team_data[:team_name])
+    end
+  end
+  arr
+end
 
 
 
