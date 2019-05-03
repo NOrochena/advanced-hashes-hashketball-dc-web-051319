@@ -119,7 +119,9 @@ end
 
 def num_points_scored(player_name)
   game_hash.each do |location, team_data|
-    puts location
+    team_data.each do |attribute, data|
+      puts attribute
+    end
   end
 end
 
