@@ -148,7 +148,7 @@ end
 def team_names
   arr = []
   game_hash.each do |location, team_data|
-    puts team_data
+    puts team_data[:team_name]
     if team_data == :team_name
       arr.push(team_data[:team_name])
     end
