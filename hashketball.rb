@@ -152,10 +152,10 @@ def team_names
       arr.push(team_data[:team_name])
     end
   end
-  arr
+  puts arr
 end
 
-
+team_names
 
 
 
