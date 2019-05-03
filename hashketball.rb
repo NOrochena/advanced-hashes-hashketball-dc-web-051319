@@ -123,7 +123,7 @@ def num_points_scored(player_name)
       if player == "player_name"
         puts stats[:points]
       end
-      puts player_name
+      puts player_name + " " + player
     end
   end
 end
