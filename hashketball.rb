@@ -160,6 +160,7 @@ def player_numbers(team_name)
       team_data[:players].each do |player, stats|
         arr.push(stats[:number])  
       end
+    end
   end
   arr
 end
